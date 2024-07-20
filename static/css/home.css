@@ -1,0 +1,1452 @@
+
+
+#top-section{
+
+    /* The image used */
+    background-image: url("../media/img/background/Parallax-Background-Image.jpg.jpg");
+
+    .video-container {
+        position: relative;
+        width: 100%;
+        padding-bottom: 56.25%; /* 16:9 aspect ratio */
+        height: 0;
+        overflow: hidden;
+        margin-bottom: 50px; /* Add margin to create space */
+    }
+
+    .video-container video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    /* Set a specific height */
+    min-height: 100vh;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media(min-width:768px){
+    .banner-body{
+        min-height: 85vh;
+    }
+
+    /*    #top-section-header{
+            margin-top: 100px;
+        }*/
+
+    .data-container{
+        padding: 50px 0;
+    }
+
+    .data-container hr{
+        width: 50px;
+        float: left;
+        border-color: #444;
+    }
+
+    /*    #services{
+            padding: 10% 0;
+        }*/
+
+
+    .service-body{
+        padding: 100px 0px;
+    }
+    .skill-body{
+        padding: 60px 0px;
+    }
+    .process-body{
+        padding: 100px 0;
+    }
+
+
+    .service-header{
+        min-height: 80px;
+    }
+
+    .contact-form-body{
+        padding: 100px 0;
+    }
+    .intro-body{
+        padding: 60px 100px;
+    }
+    .intro-body .col-sm-12{
+        padding-top: 50px;
+    }
+    /*    .lable-btn{
+            margin-left: 15px;
+            border-radius: 0;
+            border: 3px solid #444;
+        }*/
+
+    .portfolio-body{
+        padding: 60px 100px;
+
+
+    }
+    .portfolio-data{
+        padding: 50px 0;
+    }
+    #portfolio{
+        padding: 10% 0;
+    }
+    #work-style{
+        padding: 10% 0;
+    }
+    #upcoming-events{
+        padding: 10% 0;
+    }
+    .banner-caption{
+        position: absolute;
+        top: 25%;
+        text-align: center;
+        padding: 30px;
+        margin: 10%;
+        background-color: rgba(0,0,0,0.5);
+
+    }
+
+
+    .vcenter{
+        display: inline-block;
+        vertical-align: top;
+        float: none;
+    }
+
+}
+.intro-body .col-sm-12 .col-sm-7 p{
+    line-height: 1.5em;
+}
+
+
+@media(max-width:767px){
+    .banner-caption{
+        /*        position: absolute;
+                top:50px;
+                text-align: center;
+                padding: 15px;
+                background-color: rgba(0,0,0,0.5);*/
+        display: none;
+    }
+    .banner-body{
+        /*min-height: 50vh;*/
+    }
+    .banner-body img{
+        /*min-height: 50vh;*/
+    }
+    .intro-body{
+        margin: 0 10%;
+
+        padding: 30px;
+        background-color: transparent;
+    }
+    .intro-body .col-sm-12{
+        padding-top: 20px;
+    }
+    .intro-body .col-sm-7{
+        padding-top: 20px;
+    }
+    .intro-body .col-sm-12 .col-sm-6{
+        padding-top: 30px;
+    }
+    .service-body{
+        padding:10%;
+    }
+
+    .service-data{
+        padding-top: 30px;
+    }
+    .service-data .col-sm-4{
+        padding-bottom: 20px;
+    }
+    .service-data .col-sm-4:last-child{
+        padding-bottom: 0;
+    }
+
+    #portfolio{
+        padding: 10%;
+    }
+    .portfolio-body{
+        padding: 10%;
+    }
+    .portfolio-data{
+        padding-top: 30px;
+    }
+    .skill-body{
+        padding: 10%;
+    }
+    .process-body{
+        padding: 10%;
+    }
+    .skill-data{
+        padding-top: 30px;
+    }
+
+
+}
+
+.lable-btn{
+    margin-left: 15px;
+}
+
+#intro{
+    padding: 10% 0;
+}
+
+.banner-caption h1{
+    color: #fff;
+}
+
+.label-btn{
+    border-radius: 0;
+    border: 3px solid #444;
+}
+
+.portfolio-body{
+    background-color: #fff;
+}
+
+.banner-body{
+    background-color: #fff;
+}
+
+
+
+
+.owl-dots{
+    position: absolute;
+    bottom: 20px;
+    align-items: center;
+    width: 100%;
+}
+
+
+
+
+.service-body{
+    background-color: #fff;
+    min-height: 1px;
+}
+.skill-body{
+    background-color: #fff;
+    min-height: 1px;
+}
+.skill-data .col-sm-4{
+    padding-bottom: 15px;
+    padding-top: 15px;
+
+}
+
+#process{
+    background-color: #000;
+    color: #fff;
+}
+.process-body{
+    background-color: #000;
+    min-height: 1px;
+    text-align: center;
+}
+.process-body h3{
+        font-weight: 700;
+
+
+}
+.process-body h4{
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.process-body p{
+    padding-top: 20px;
+    text-align: center;
+}
+.process-body img{
+   height: 70px;
+   width:70px;
+
+}
+#process .process-body .img-responsive{
+    display: inline-block;
+}
+.contact-form-body{
+    background-color: #fff;
+    min-height: 1px;
+}
+
+.intro-body{
+    background-color: #fff;
+    min-height: 1px;
+}
+.blog-data{
+    line-height:2;
+
+}
+
+
+@media(min-width:768px){
+    .service-data{
+        padding-top: 50px;
+    }
+    .skill-data{
+        padding-top: 35px;
+    }
+    .contact-form-data{
+        padding-top: 35px;
+    }
+    .box{
+        min-height: 150px;
+        text-align: center;
+    }
+    .skill-icon{
+        margin-bottom: 30px;
+    }
+}
+
+.gallery_product{
+    position: relative;
+    padding-left: 0;
+    padding-bottom: 0;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    min-height:100px;
+    /*text-align: center;*/
+}
+.gallery_product img{
+    /*max-height: 80px;*/
+    display: inline-block;
+    border: 1px solid rgba(30,80,120,.12);;
+
+}
+@media(min-width:768px){
+    .text-block {
+        background-color: #000;
+        text-align: center;
+        color: #fff;
+       min-height: 9px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+      }
+      .text-block p{
+        margin-bottom: 0px;
+
+    }
+}
+@media(max-width:767px){
+    .text-block{
+
+       min-height: 9px;
+        text-align: center;
+        background-color: #000;
+        color: #fff;
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+    .text-block p{
+        margin-bottom: 0px;
+
+    }
+}
+
+
+
+.gallery-title
+{
+    font-size: 36px;
+    color: #42B32F;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+.gallery-title:after {
+    content: "";
+    position: absolute;
+    width: 7.5%;
+    left: 46.5%;
+    height: 45px;
+    border-bottom: 1px solid #5e5e5e;
+}
+
+
+@media(min-width:768px){
+    .filter-button
+    {
+        font-size: 18px;
+        border: 1px solid #42B32F;
+        border-radius: 5px;
+        text-align: center;
+        color: #42B32F;
+        margin-bottom: 30px;
+
+    }
+    .padd-top{
+        padding-top: 15px;
+    }
+}
+@media(max-width:767px){
+    .filter-button
+    {
+        font-size: 18px;
+        border: 1px solid #42B32F;
+        border-radius: 5px;
+        text-align: center;
+        color: #42B32F;
+        margin-bottom: 15px;
+
+    }
+    .padd-top{
+        padding-top: 10px;
+    }
+    #work-style{
+        padding: 10%;
+    }
+    #upcoming-events{
+        padding: 10%;
+    }
+    .contact-form-body{
+        padding: 10%;
+    }
+    .contact-form-data{
+        padding-top: 30px;
+    }
+    .contact-form-data .col-sm-4{
+        padding-top: 30px;
+    }
+    .contact-data{
+        padding: 10%;
+    }
+    .contact-data h2{
+        margin: 0;
+    }
+
+}
+
+.filter-button:hover
+{
+    font-size: 18px;
+    border: 1px solid #42B32F;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #42B32F;
+
+}
+.btn-default:active .filter-button:active
+{
+    background-color: #42B32F;
+    color: white;
+}
+
+.port-image
+{
+    width: 100%;
+}
+
+@media(max-width:767px){
+    .gallery_product
+    {
+        margin-bottom: 30px;
+    }
+}
+
+
+#portfolio{
+
+    /* The image used */
+    background-image: url("../media/img/background/Parallax-BG_Full01.jpg.jpg");
+
+    /* Set a specific height */
+    min-height: 100vh;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#work-style{
+    /* The image used */
+    background-image: url("../media/img/background/Parallax-BG_02.jpg.png.jpg");
+
+    /* Set a specific height */
+    min-height: 100vh;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#upcoming-events{
+
+    /* The image used */
+    background-image: url("../media/img/background/Parallax-BG_Full02.jpg.jpg");
+
+    /* Set a specific height */
+    min-height: 100vh;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#contact{
+    background-color: #444;
+}
+
+@media(max-width:767px){
+    .skill-data .box h4{
+        text-align: center;
+    }
+
+}
+
+.contact-body{
+        padding: 20px 0;
+    }
+    .contact-body p{
+        margin: 0;
+    }
+.contact-data a{
+    color: #ccc;
+}
+.contact-data a:hover, .contact-data a:focus{
+    color: #fff;
+}
+.contact-data h2{
+    margin-top: 0;
+}
+.padd-bot-20{
+    padding-bottom: 20px;
+}
+.padd-bot-30{
+    padding-bottom: 30px;
+}
+
+@media(min-width:768px){
+    .padding-45{
+        padding-top:25px;
+    }
+    .blog-si{
+    padding-left: 20px;
+    padding-right: 70px;
+}
+
+}
+
+.map-img{
+    padding-bottom: 30px;
+    border-bottom: 3px solid #ccc;
+}
+
+.process-body .col-sm-3 img{
+    max-height: 50px;
+    margin: 10px 0;
+}
+.padd-5{
+    padding-top: 5px;
+}
+
+#popup-invitation #myModalLabel{
+    background-color: #000;
+    padding: 15px;
+    text-align: center;
+}
+#popup-invitation #myModalLabel img{
+    max-height: 50px;
+    display: inline-block;
+}
+#popup-invitation .modal-header{
+    padding: 0;
+}
+#popup-invitation .modal-header button{
+    color: #fff;
+    padding: 30px;
+}
+#popup-invitation .modal-header button span{
+    color: #ffffff;
+    padding: 0px 5px;
+    border: 1px solid #fff;
+}
+.modal-dialog{
+    width:80%;
+
+}
+.vcenter-m{
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+.btn-div .btn-info{
+    background-color: #bf3a2f;
+    color: #ffffff;
+    border-color: #bf3a2f;
+}
+
+
+
+
+
+
+
+
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+#top-section{
+
+    /* The image used */
+    background-image: url("../media/img/background/Parallax-Background-Image.jpg.jpg");
+
+    /* Set a specific height */
+    min-height: 100vh;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media(min-width:768px){
+    .banner-body{
+        min-height: 85vh;
+    }
+
+    /*    #top-section-header{
+            margin-top: 100px;
+        }*/
+
+    .data-container{
+        padding: 50px 0;
+    }
+
+    .data-container hr{
+        width: 50px;
+        float: left;
+        border-color: #444;
+    }
+
+    /*    #services{
+            padding: 10% 0;
+        }*/
+
+
+    .service-body{
+        padding: 100px 0px;
+    }
+    .skill-body{
+        padding: 60px 0px;
+    }
+    .process-body{
+        padding: 100px 0;
+    }
+
+
+    .service-header{
+        min-height: 80px;
+    }
+
+    .contact-form-body{
+        padding: 100px 0;
+    }
+    .intro-body{
+        padding: 60px 100px;
+    }
+    .intro-body .col-sm-12{
+        padding-top: 50px;
+    }
+    /*    .lable-btn{
+            margin-left: 15px;
+            border-radius: 0;
+            border: 3px solid #444;
+        }*/
+
+    .portfolio-body{
+        padding: 60px 100px;
+
+
+    }
+    .portfolio-data{
+        padding: 50px 0 0;
+    }
+    #portfolio{
+        padding: 10% 0;
+    }
+    #work-style{
+        padding: 10% 0;
+    }
+    #employee{
+        padding:0 0 10% 0;
+    }
+    #upcoming-events{
+        padding: 10% 0;
+    }
+    .banner-caption{
+        position: absolute;
+        top: 25%;
+        text-align: center;
+        padding: 30px;
+        margin: 10%;
+        background-color: rgba(0,0,0,0.5);
+
+    }
+
+
+    .vcenter{
+        display: inline-block;
+        vertical-align: top;
+        float: none;
+    }
+
+    .event-additional_info{
+        display: block;
+        padding-top: 30px;
+    }
+    .event-additional_info .btn-info{
+        background-color: #bf3a2f;
+        border-color: #bf3a2f;
+        transition: all 0.2s;
+    }
+    .event-additional_info .btn-info:hover, .event-additional_info .btn-info:active{
+        /*background-color: #fb0c0c;*/
+        background-color: #ccc;
+        color: #bf3a2f;
+    }
+}
+.intro-body .col-sm-12 .col-sm-7 p{
+    line-height: 1.5em;
+}
+
+
+@media(max-width:767px){
+    .banner-caption{
+        /*        position: absolute;
+                top:50px;
+                text-align: center;
+                padding: 15px;
+                background-color: rgba(0,0,0,0.5);*/
+        display: none;
+    }
+    .banner-body{
+        /*min-height: 50vh;*/
+    }
+    .banner-body img{
+        /*min-height: 50vh;*/
+    }
+    .intro-body{
+        margin: 0 10%;
+
+        padding: 30px;
+        background-color: transparent;
+    }
+    .intro-body .col-sm-12{
+        padding-top: 20px;
+    }
+    .intro-body .col-sm-7{
+        padding-top: 20px;
+    }
+    .intro-body .col-sm-12 .col-sm-6{
+        padding-top: 30px;
+    }
+    .service-body{
+        padding:10%;
+    }
+
+    .service-data{
+        padding-top: 30px;
+    }
+    .service-data .col-sm-4{
+        padding-bottom: 20px;
+    }
+    .service-data .col-sm-4:last-child{
+        padding-bottom: 0;
+    }
+
+    #portfolio{
+        padding: 10%;
+    }
+    .portfolio-body{
+        padding: 10%;
+    }
+    .portfolio-data{
+        padding-top: 30px;
+    }
+    .skill-body{
+        padding: 10%;
+    }
+    .process-body{
+        padding: 10%;
+    }
+    .skill-data{
+        padding-top: 30px;
+    }
+
+
+}
+
+.lable-btn{
+    margin-left: 15px;
+}
+
+#intro{
+    padding: 10% 0;
+}
+
+.banner-caption h1{
+    color: #fff;
+}
+
+.label-btn{
+    border-radius: 0;
+    border: 3px solid #444;
+}
+
+.portfolio-body{
+    background-color: #fff;
+}
+
+.banner-body{
+    background-color: #fff;
+}
+
+.owl-dots{
+    position: absolute;
+    bottom: 20px;
+    align-items: center;
+    width: 100%;
+}
+
+.service-body{
+    background-color: #fff;
+    min-height: 1px;
+}
+.skill-body{
+    background-color: #fff;
+    min-height: 1px;
+}
+.skill-data .col-sm-4{
+    padding-bottom: 15px;
+    padding-top: 15px;
+
+}
+
+#process{
+    background-color: #000;
+    color: #fff;
+}
+.process-body{
+    background-color: #000;
+    min-height: 1px;
+    text-align: center;
+}
+.process-body h3{
+    font-weight: 700;
+
+
+}
+.process-body h4{
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.process-body p{
+    padding-top: 20px;
+    text-align: center;
+}
+.process-body img{
+    height: 70px;
+    width:70px;
+
+}
+#process .process-body .img-responsive{
+    display: inline-block;
+}
+.contact-form-body{
+    background-color: #fff;
+    min-height: 1px;
+}
+
+.intro-body{
+    background-color: #fff;
+    min-height: 1px;
+}
+.blog-data{
+    line-height:2;
+
+}
+
+
+@media(min-width:768px){
+    .service-data{
+        padding-top: 50px;
+    }
+    .skill-data{
+        padding-top: 35px;
+    }
+    .contact-form-data{
+        padding-top: 35px;
+    }
+    .box{
+        min-height: 150px;
+        text-align: center;
+    }
+    .skill-icon{
+        margin-bottom: 30px;
+    }
+}
+
+.gallery_product{
+    position: relative;
+    padding-left: 0;
+    padding-bottom: 0;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    min-height:100px;
+    /*text-align: center;*/
+}
+.gallery_product img{
+    /*max-height: 80px;*/
+    display: inline-block;
+    border: 1px solid rgba(30,80,120,.12);;
+
+}
+@media(min-width:768px){
+    .text-block {
+        background-color: #000;
+        text-align: center;
+        color: #fff;
+        min-height: 9px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+    .text-block p{
+        margin-bottom: 0px;
+
+    }
+}
+@media(max-width:767px){
+    .text-block{
+
+        min-height: 9px;
+        text-align: center;
+        background-color: #000;
+        color: #fff;
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+    .text-block p{
+        margin-bottom: 0px;
+
+    }
+}
+
+
+
+.gallery-title
+{
+    font-size: 36px;
+    color: #42B32F;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+.gallery-title:after {
+    content: "";
+    position: absolute;
+    width: 7.5%;
+    left: 46.5%;
+    height: 45px;
+    border-bottom: 1px solid #5e5e5e;
+}
+
+
+@media(min-width:768px){
+    .filter-button
+    {
+        font-size: 18px;
+        border: 1px solid #42B32F;
+        border-radius: 5px;
+        text-align: center;
+        color: #42B32F;
+        margin-bottom: 30px;
+
+    }
+    .padd-top{
+        padding-top: 15px;
+    }
+}
+@media(max-width:767px){
+    .filter-button
+    {
+        font-size: 18px;
+        border: 1px solid #42B32F;
+        border-radius: 5px;
+        text-align: center;
+        color: #42B32F;
+        margin-bottom: 15px;
+
+    }
+    .padd-top{
+        padding-top: 10px;
+    }
+    #work-style{
+        padding: 10%;
+    }
+    #employee{
+        padding: 0 10% 10% 10%;
+    }
+
+    #upcoming-events{
+        padding: 10%;
+    }
+    .contact-form-body{
+        padding: 10%;
+    }
+    .contact-form-data{
+        padding-top: 30px;
+    }
+    .contact-form-data .col-sm-4{
+        padding-top: 30px;
+    }
+    .contact-data{
+        padding: 10%;
+    }
+    .contact-data h2{
+        margin: 0;
+    }
+
+}
+
+.filter-button:hover
+{
+    font-size: 18px;
+    border: 1px solid #42B32F;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #42B32F;
+
+}
+.btn-default:active .filter-button:active
+{
+    background-color: #42B32F;
+    color: white;
+}
+
+.port-image
+{
+    width: 100%;
+}
+
+@media(max-width:767px){
+    .gallery_product
+    {
+        margin-bottom: 30px;
+    }
+}
+
+
+#portfolio{
+
+    /* The image used */
+    background-image: url("../media/img/background/Parallax-BG_Full01.jpg.jpg");
+
+    /* Set a specific height */
+    min-height: 100vh;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#work-style{
+    /* The image used */
+    background-image: url("../media/img/background/Parallax-BG_02.jpg.png.jpg");
+
+    /* Set a specific height */
+    min-height: 100vh;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#upcoming-events{
+
+    /* The image used */
+    background-image: url("../media/img/background/Parallax-BG_Full02.jpg.jpg");
+
+    /* Set a specific height */
+    min-height: 100vh;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#contact{
+    background-color: #444;
+}
+
+@media(max-width:767px){
+    .skill-data .box h4{
+        text-align: center;
+    }
+
+}
+
+.contact-body{
+    padding: 20px 0;
+}
+.contact-body p{
+    margin: 0;
+}
+.contact-data a{
+    color: #ccc;
+}
+.contact-data a:hover, .contact-data a:focus{
+    color: #fff;
+}
+.contact-data h2{
+    margin-top: 0;
+}
+.padd-bot-20{
+    padding-bottom: 20px;
+}
+.padd-bot-30{
+    padding-bottom: 30px;
+}
+
+@media(min-width:768px){
+    .padding-45{
+        padding-top:25px;
+    }
+    .blog-si{
+        padding-left: 20px;
+        padding-right: 70px;
+    }
+
+}
+
+.map-img{
+    padding-bottom: 30px;
+    border-bottom: 3px solid #ccc;
+}
+
+.process-body .col-sm-3 img{
+    max-height: 50px;
+    margin: 10px 0;
+}
+.padd-5{
+    padding-top: 5px;
+}
+
+#popup-invitation #myModalLabel{
+    background-color: #000;
+    padding: 15px;
+    text-align: center;
+}
+#popup-invitation #myModalLabel img{
+    max-height: 50px;
+    display: inline-block;
+}
+#popup-invitation .modal-header{
+    padding: 0;
+}
+#popup-invitation .modal-header button{
+    color: #fff;
+    padding: 30px;
+}
+#popup-invitation .modal-header button span{
+    color: #ffffff;
+    padding: 0px 5px;
+    border: 1px solid #fff;
+}
+.modal-dialog{
+    width:80%;
+
+}
+.vcenter-m{
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+.btn-div .btn-info{
+    background-color: #bf3a2f;
+    color: #ffffff;
+    border-color: #bf3a2f;
+}
+
+.twitter-btn{
+    /*background-color:*/
+    padding-bottom: 15px
+}
+
+@media(max-width:767px){
+    .btn-div .col-sm-6:first-child{
+        padding-bottom: 20px;
+    }
+    .btn-div .col-sm-6{
+        padding-left: 0px;
+    }
+}
+
+
+#employee{
+    background-image: url(../media/img/background/Parallax-BG_02.jpg.png.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+/*#team {
+    background: #eee !important;
+}*/
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #108d6f;
+    border-color: #108d6f;
+    box-shadow: none;
+    outline: none;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #007b5e;
+    border-color: #007b5e;
+}
+
+#team .card {
+    border: none;
+    background: #eee;
+    padding: 30px 15px 0;
+
+}
+
+.image-flip:hover .backside,
+.image-flip.hover .backside {
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    border-radius: .25rem;
+}
+
+.image-flip:hover .frontside,
+.image-flip.hover .frontside {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.mainflip {
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -moz-transition: 1s;
+    -moz-transform: perspective(1000px);
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.frontside {
+    position: relative;
+    -webkit-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    z-index: 2;
+    margin-bottom: 30px;
+}
+
+.backside {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+}
+
+.frontside,
+.backside {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transition: 1s;
+    -moz-transform-style: preserve-3d;
+    -o-transition: 1s;
+    -o-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+}
+
+.frontside .card,
+.backside .card {
+    min-height: 312px;
+}
+
+.backside .card a {
+    font-size: 18px;
+    color: #007b5e !important;
+}
+
+.frontside .card .card-title,
+.backside .card .card-title {
+    color: #007b5e !important;
+}
+
+.frontside .card .card-body img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+
+
+/*Employee css*/
+
+#team .card {
+    border: none;
+    background: #eee;
+ }
+
+#team{
+    padding-top: 50px;
+}
+
+.image-flip:hover .backside,
+.image-flip.hover .backside {
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    border-radius: .25rem;
+}
+
+.image-flip:hover .frontside,
+.image-flip.hover .frontside {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.mainflip {
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -moz-transition: 1s;
+    -moz-transform: perspective(1000px);
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.frontside {
+    position: relative;
+    -webkit-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    z-index: 2;
+    margin-bottom: 30px;
+}
+
+.backside {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+}
+
+.frontside,
+.backside {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transition: 1s;
+    -moz-transform-style: preserve-3d;
+    -o-transition: 1s;
+    -o-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+}
+
+.frontside .card,
+.backside .card {
+    min-height: 312px;
+}
+
+.backside .card a {
+    font-size: 18px;
+    color: #007b5e !important;
+}
+
+.frontside .card .card-title,
+.backside .card .card-title {
+    color: #007b5e !important;
+}
+
+.frontside .card .card-body img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.blog-button{
+    padding-top:30px;
+}
+
+#sd{
+    background-color: #000;
+}
+
+#sd .skill-body{
+    background-color: #000;
+}

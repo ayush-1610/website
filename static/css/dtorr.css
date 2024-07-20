@@ -1,0 +1,231 @@
+.intro-body h1{
+    margin: 0;
+}
+.service-data h4{
+    line-height: 1.6;
+}
+
+nav ul li a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 16px;  
+}
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.red{
+    color:red;
+}
+
+/* end*/
+@font-face {
+    font-family: centuryGotham;
+    src: url(../font_family/century-gothic/Century Gothic.ttf);
+}
+@font-face {
+    font-family: montserrat-bold;
+    src: url(../font_family/montserrat/Montserrat-Bold.otf);
+}
+@font-face {
+    font-family: montserrat-light;
+    src: url(../font_family/montserrat/Montserrat-Light.otf);
+}
+html, body{
+    font-family: montserrat-light;
+}
+
+.mont-li{
+    font-family: montserrat-light;
+}
+.mont-bold{
+    font-family: montserrat-bold;
+}
+.font-28{
+    font-size: 28px;
+}
+.font-4_2{
+    font-size: 4.2em;
+}
+.font-1_2{
+    font-size: 1.2em;
+}
+
+.padd-bot-15{
+    padding-bottom: 15px;
+}
+
+
+/* navigation bar*/
+
+.navbar .collapse li a:hover{
+    background-color: black;
+    color: white;
+ 
+}
+
+.navbar{
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding-bottom: 10px;
+    min-height: 80px;
+	
+}
+
+.navigation_bar{
+    background-color: rgba(0,0,0,0.8);
+   width: 100%;
+   padding-top: 20px;
+   padding-bottom: 5px;
+ 
+    
+}
+
+.navigation_bar .navbar-header .navbar-brand img{
+  
+ height: 60px;
+ padding-bottom: 10px;
+ 
+}
+.navbar-header{
+   
+	
+}
+.menu-button{
+    float: right;
+    display: block;
+    right: 0;
+    
+}
+@media(min-width:768px){
+    .menu-button{
+        padding-top: 25px;
+    }
+}
+@media(max-width:767px){
+    .menu-button{
+        padding-top: 15px;
+        padding-right: 10px;
+    }
+}
+.menu-button button{
+    border: none;
+    background-color: transparent;
+}
+.menu-button button:active, .menu-button button:hover, .menu-button button:focus, .menu-button button:after{
+    border: none;
+    color: #ccc;
+}
+
+.menu-button button i{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 200;
+}
+
+@media(min-width:768px){
+    .navbar{
+        min-height: 80px;
+    }
+}
+@media(max-width:767px){
+    .navbar{
+        min-height: 60px;
+    }
+    
+}
+@media(min-width:768px) and (max-width:900px){
+    .navbar .container{
+        margin: 15px;
+        width: 97%;
+        padding: 5px;
+        display: inline-block;
+    }
+    .nav li a{
+        font-size: 13px;
+    }
+}
+.navbar-brand{
+    padding: 10px;
+}
+
+
+a{
+    color: #444;
+}
+a:hover, a:focus, a:active{
+    color: #ccc;
+    text-decoration: none;
+}
+
+
+.form-control{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0;
+    /*border-style: none;*/
+    box-shadow: none;
+}
+.form-control:hover, .form-control:active, .form-control:focus{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0;
+    /*border-style: none;*/
+    box-shadow: none;
+}
+
+.box{
+    border: 1px solid rgba(15,70,100,.12);
+    padding: 15px;
+}
+
+.icon-size{
+    max-height: 50px;
+}
+
+.limit-height{
+    max-height: 300px;
+    overflow-y: scroll;
+}
+
+.lable-btn{
+
+    padding: 7px 10px;
+    border-radius: 0;
+    border: 3px solid #444;
+    display: inline-block;
+	 margin: 20px;
+}
+.lable-btn-rev{
+
+    padding: 7px 10px;
+    border-radius: 0;
+    border: 3px solid red;
+	color: white;
+	background-color: #444;
+	display: inline-block;
+}
+
+.footer-share-icons{
+    border-top:3px solid #000;
+    margin-top:20px;
+}
+.footer-share-icons li{
+    margin-right:10px;
+}
+.footer-share-icons i{
+    font-size: 25px;
+}
+
+@media(min-width: 767px){
+    .section-top-padd{
+        padding-top: 60px
+    }
+}
